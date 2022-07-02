@@ -1,0 +1,323 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap'); */
+
+:root {
+  --primary-color: #ed407a;
+  --second--color: #ec0072;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  /* font-family: Helvetica, Arial, Tahoma, sans-serif; */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.row {
+  display: flex;
+  /* justify-content: space-evenly; */
+  flex-wrap: wrap;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.center {
+  justify-content: center;
+}
+
+.c-0 {
+  display: none;
+}
+
+
+.c-1 {
+  flex: 0 0 8.33333%;
+  max-width: 8.33333%;
+}
+
+.c-2 {
+  flex: 0 0 16.66667%;
+  max-width: 16.66667%;
+}
+
+.c-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.c-4 {
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+}
+
+.c-5 {
+  flex: 0 0 41.66667%;
+  max-width: 41.66667%;
+}
+
+.c-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.c-7 {
+  flex: 0 0 58.33333%;
+  max-width: 58.33333%;
+}
+
+.c-8 {
+  flex: 0 0 66.66667%;
+  max-width: 66.66667%;
+}
+
+.c-9 {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+
+.c-10 {
+  flex: 0 0 83.33333%;
+  max-width: 83.33333%;
+}
+
+.c-11 {
+  flex: 0 0 91.66667%;
+  max-width: 91.66667%;
+}
+
+.c-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.li {
+  margin-bottom: 10px;
+}
+
+.li:hover {
+  color: #00b5f2;
+}
+
+
+.li-head {
+  margin-bottom: 15px;
+
+}
+
+.nav {
+  width: 80%;
+  height: 60px;
+  margin: auto;
+  align-items: center;
+
+}
+
+.nav-btn {
+  display: inline;
+  color: #fff;
+  background: var(--primary-color);
+  padding: 10px 20px;
+  line-height: 20px;
+  border-radius: 20px;
+
+}
+
+.nav-logo {
+  width: 50%;
+
+}
+
+.nav .nav-li {
+  padding: 0 30px;
+}
+
+.nav .nav-li a {
+  color: #000;
+
+}
+
+.nav .nav-li:hover a {
+  color: var(--primary-color);
+
+}
+
+.slider {
+  margin-top: 20px;
+}
+
+
+.slider-img {
+  width: 100%;
+  display: block;
+  margin-bottom: 48px;
+}
+
+.footer {
+  width: 80%;
+  margin: 50px auto 0;
+  padding-top: 30px;
+  border-top: solid 1px rgb(144, 143, 143);
+}
+
+.logo-footer {
+  width: 80%;
+  padding: 0 60px 0 0;
+
+}
+
+.footer-line {
+  width: 100%;
+  height: 1px;
+  background: rgb(144, 143, 143);
+  margin: 20px 0;
+}
+
+.footer-img {
+  margin: 10px 0 50px;
+  width: 100%;
+}
+
+.content {
+  
+  width: 80%;
+  margin: auto;
+}
+
+.tour {
+
+  
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+.tour-img {
+  cursor: pointer;
+  object-fit: cover;
+  object-position: center center;
+  width: 100%;
+  height: 180px;
+  border-radius: 4px 4px 0 0;
+  display: block;
+}
+
+.line {
+  border-color: rgba(0, 0, 0, 0.1);
+  border-style: dashed;
+  border-width: 1px 0 0;
+  margin: 24px 0;
+
+}
+
+.tour-content {
+  padding: 12px;
+  border-radius: 0 0 4px 4px;
+  border: solid 1px #bdbdbd;
+
+}
+
+.tour-name {
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+  font-size: 16px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 8px 0;
+  font-weight: 600;
+}
+
+.tour-adress {
+  color: #6c6c6c;
+}
+
+.tour-row-buy {
+  justify-content: space-between;
+}
+
+.tour-price {
+  padding-left: 8px;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.tour-btn {
+  background-color: var(--second--color);
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+
+}
+
+.filter{  
+  display: block;
+  padding: 10px ;
+}
+.filter-box{
+  border-top: 1px solid #bdbdbd;
+  border-bottom: 1px solid #bdbdbd;  
+}
+
+.find-box{
+  margin-top: 16px;
+  padding: 10px;
+}
+
+.input-find{
+  width: 100%;
+  border: 1px solid  #6c6c6c;  
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  
+  
+}
+.input-find:hover{
+  border: 1px solid var(--second--color);
+}
+.input-find:focus-visible{
+
+  outline: 1px solid var(--second--color);
+}
+
+.btn-find{
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: var(--second--color);
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.line-find{
+  width: 100%;
+  height: 1px;
+  background-color: #bdbdbd;
+  padding: 0 20px;
+}
+
+.filt-radio{
+  color: rgb(142, 5, 5);
+}
+
+.find-header{
+  font-weight: 600;
+}
+
+.second-header{
+  margin-bottom: 10px;
+}
